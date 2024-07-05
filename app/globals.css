@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer base {
+  .Boxbg {
+    @apply max-w-[376px] mx-auto bg-black/50 text-3xl font-black text-white p-8 rounded-2xl lg:max-w-[900px] overflow-x-scroll;
+  }
+
+  .SmallBoxbg {
+    @apply bg-white/70 rounded-2xl p-4;
+  }
+}
