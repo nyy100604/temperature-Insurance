@@ -84,5 +84,6 @@ export const config = {
     "/mongoDb/connect/index.ts",
     "/node_modules/mongoose/**",
     "/lib/action/dataAction.ts",
+    "/auth.ts",
   ],
 };
