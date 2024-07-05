@@ -76,9 +76,8 @@ export default auth((req) => {
 });
 
 export const config = {
-  // https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
+  runtime: "experimental-edge", // 使用 experimental-edge runtime
   matcher: ["/((?!api|_next/static|_next/image|.*\\.png$).*)"],
-  runtime: "edge",
   unstable_allowDynamic: [
     "/mongoDb/schema/userSchema.ts",
     "/mongoDb/schema/policySchema.ts",
