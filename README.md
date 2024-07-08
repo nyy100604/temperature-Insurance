@@ -37,8 +37,8 @@ The main purpose of this platform is to provide farmers with a reliable and auto
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/TemperatureInsurance.git
-   cd TemperatureInsurance
+   git clone https://github.com/nyy100604/temperature-Insurance.git
+   cd temperature-Insurance
    ```
 
 2. Install dependencies:
