@@ -5,7 +5,6 @@ import { CircleX, CircleCheckBig } from "lucide-react";
 import { getCurrentTemperature } from "@/lib/action/dataAction";
 
 // components
-import { Button } from "@/components/ui/button";
 import SelectPolicy from "./SelectPolicy";
 import BtnGroup from "./BtnGroup";
 
@@ -84,7 +83,7 @@ const PolicyData = ({ policies }: { policies: any }) => {
           {date}
         </div>
       </div>
-      <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="SmallBoxbg p-8 flex justify-between lg:justify-center lg:gap-x-4 h-[226px]">
           {" "}
           <Image
