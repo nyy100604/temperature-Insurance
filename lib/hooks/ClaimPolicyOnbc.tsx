@@ -1,7 +1,6 @@
 "use client";
 import { ethers } from "ethers";
 import { InsurancePolicyContract_ABI } from "@/Blockchain/ABI";
-import { insurancePolicyContractAddr } from "@/Blockchain/Address";
 import { updateIsClaim } from "../action/dataAction";
 import { useRouter } from "next/navigation";
 

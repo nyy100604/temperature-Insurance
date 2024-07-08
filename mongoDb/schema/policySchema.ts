@@ -1,4 +1,4 @@
-import { Document, Schema, model, Models, models } from "mongoose";
+import { Document, Schema, model, models } from "mongoose";
 
 interface IInsurancePolicy extends Document {
   farmer: string;
