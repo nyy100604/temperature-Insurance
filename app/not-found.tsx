@@ -1,12 +1,10 @@
 import Header from "@/components/common/Header";
-import React from "react";
 import Image from "next/image";
 import Footer from "@/components/common/Footer";
 
-const NotFound = () => {
+export default function NotFound() {
   return (
     <>
-      {" "}
       <div className="bg-heroMobile w-full lg:bg-heroDesktop h-[100vh] bg-center bg-cover">
         <Header />
         <div className="Boxbg mt-[2rem]">
@@ -19,6 +17,4 @@ const NotFound = () => {
       <Footer />
     </>
   );
-};
-
-export default NotFound;
+}
