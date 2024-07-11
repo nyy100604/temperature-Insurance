@@ -1,18 +1,6 @@
 import { auth } from "./auth";
 import { NextResponse } from "next/server";
 
-const routes = [
-  "/",
-  "/admin/policy-create",
-  "/farmer/policy-manage",
-  "/404",
-  "/unauthorized",
-];
-
-const isRouteExists = (pathname: string) => {
-  return routes.includes(pathname);
-};
-
 export default auth((req) => {
   const user = req.auth?.user as {
     id: string;
@@ -28,14 +16,6 @@ export default auth((req) => {
   const policyManageurl = new URL("/farmer/policy-manage", req.url);
   const unauthorizedUrl = new URL("/unauthorized", req.url);
   const notFoundUrl = new URL("/404", req.url);
-
-  // 如果路徑不存在，記錄錯誤並重定向到404頁面
-  if (!isRouteExists(pathname)) {
-    console.log(pathname);
-
-    console.error(`Route not found: ${pathname}`);
-    return NextResponse.redirect(notFoundUrl);
-  }
 
   if (
     !isLoggedIn &&

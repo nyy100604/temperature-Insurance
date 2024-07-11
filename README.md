@@ -13,6 +13,12 @@ A decentralized insurance platform to protect farmers against extreme weather co
 
 The main purpose of this platform is to provide farmers with a reliable and automated insurance system that compensates them for losses due to extreme weather conditions, such as high temperatures. This ensures timely and fair compensation, reducing the financial impact of adverse weather.
 
+## Video Introduction
+
+Here is a video introduction to the system:
+
+[![Watch the video](./public//Home/heroDesktop.png)](https://youtu.be/vJzGyiE6t2w)
+
 ## Technologies Used
 
 - React
