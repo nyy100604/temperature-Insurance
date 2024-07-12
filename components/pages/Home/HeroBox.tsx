@@ -64,7 +64,7 @@ const HeroBox = () => {
                   className="py-5 opacity-70 hover:opacity-100 duration-200 group"
                   key={index}
                 >
-                  <span className="flex items-center title-group">
+                  <span className="flex items-center">
                     <ArrowBigRightDash
                       className="group-hover:rotate-90 duration-200"
                       size={35}
