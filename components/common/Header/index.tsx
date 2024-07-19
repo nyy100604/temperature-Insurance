@@ -12,7 +12,14 @@ const Header = () => {
       {/* logo */}
       <Link href="/">
         <div className="flex items-center gap-x-2 py-4">
-          <Image src="/Home/logo.png" width={70} height={50} alt="logo" />
+          <Image
+            src="/Home/logo.png"
+            width={70}
+            height={50}
+            alt="logo"
+            priority={true}
+            quality={100}
+          />
           <div className="font-black text-xl shadow-[30rem]">
             <p className="text-white">Temperature</p>
             <p className="text-[#EFAA59]">Insurance</p>
